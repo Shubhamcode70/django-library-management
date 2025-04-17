@@ -27,8 +27,10 @@ This project is a simple Library Management System built using Django and Django
 Set up MySQL database and add DB config in settings.py
 
 Run migrations:
-python manage.py makemigrations
-python manage.py migrate
-
+   ```bash
+   python manage.py makemigrations
+   python manage.py migrate
+```
 Run the server:
+```bash
 python manage.py runserver
